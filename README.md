@@ -32,10 +32,13 @@ So repo should contain two files:
 # How to setup cronjobs
 
 to run every day at 03:00
+
     0 3 * * * 
 
 to run every Sunday at 22:00
+
     0 22 * * SUN 
 
 to run every quarter on the 13th day at 03:00
+
     0 3 13 */3 *
