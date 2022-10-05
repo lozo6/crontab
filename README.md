@@ -31,7 +31,7 @@ So repo should contain two files:
 
 - a python file (.py) that contains the python code for pulling down the data /// the retrieved data should then be saved locally on that machine where the cron job is running - e.g., should be part of the python code (e.g., df.to_csv(‘path/to/file/saved/data_10-10-10.csv)
 
-# Crontab jobs (required for assignment)
+## Crontab jobs (required for assignment)
 
 1. to run every day at 03:00
 
@@ -48,10 +48,6 @@ So repo should contain two files:
 ** If there is a print function in the script please add '> log.txt 2>&1 &' to the end of crontab file **
 
 Example: 0 3 13 */3 * usr/bin/python3 location/of/script > log.txt 2>&1 & (ex. /Users/lozo/Developer/AHI_Github/crontab/cronJob.py > log.txt 2>&1 &) 
-
-## Sources
-
-Data was pulled from https://www.data.cms.gov, https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opioid-treatment-program-providers
 
 ## crontab jobs can also be setup in virtual machine (GCP, Azure, or AWS)
 
@@ -80,3 +76,7 @@ Data was pulled from https://www.data.cms.gov, https://data.cms.gov/provider-cha
     save and close crontab
 
 8. Successfully installed crontab
+
+### Sources
+
+Data was pulled from https://www.data.cms.gov, https://data.cms.gov/provider-characteristics/medicare-provider-supplier-enrollment/opioid-treatment-program-providers
