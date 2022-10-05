@@ -1,5 +1,7 @@
 #!/bin/sh
 
-echo "now running testfile.py."
+echo "now running cronJob.py."
 
-python cronJob.py
+python3 /Users/lozo/Developer/AHI_Github/crontab/cronJob.py
+
+echo "cronJob.py finished successfully"

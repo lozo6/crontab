@@ -1,15 +1,19 @@
 import os
-import sys
 import time
 import pandas as pd
 
-cwd = os.getcwd()
-
+# assign data to vairable
 df = pd.read_csv('data/food_delivery.csv')
 
-now = time.time()
+# get current time
+currentTime = time.time()
 
-nowStr = time.strftime("%Y-%m-%d_%H:%M:%S", time.localtime(now))
+# formats time into a string Year-Month-Day_Hour:Minute:Second
+formatTime = time.strftime("%Y-%m-%d_%H:%M:%S", time.localtime(currentTime))
 
-with open(cwd + '/cronJob_' + nowStr + '.txt', 'w') as f:
+# check cwd
+cwd = os.getcwd()
+
+# save data into new .txt file
+with open(cwd + '/cronJob_' + formatTime + '.txt', 'w') as f:
     f.write(str(df))

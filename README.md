@@ -28,3 +28,14 @@ So repo should contain two files:
 
 
 - a python file (.py) that contains the python code for pulling down the data /// the retrieved data should then be saved locally on that machine where the cron job is running - e.g., should be part of the python code (e.g., df.to_csv(‘path/to/file/saved/data_10-10-10.csv)
+
+# How to setup cronjobs
+
+to run every day at 03:00
+0 3 * * * 
+
+to run every Sunday at 22:00
+0 22 * * SUN 
+
+to run every quarter on the 13th day at 03:00
+0 3 13 */3 *
