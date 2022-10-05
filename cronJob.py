@@ -22,5 +22,5 @@ formatTime = time.strftime("%Y-%m-%d_%H:%M:%S", time.localtime(currentTime))
 cwd = os.getcwd()
 
 # save data into new .txt file
-with open(cwd + '/cronJob_' + formatTime + '.txt', 'w') as f:
+with open(cwd + '/crontab/cronJob_' + formatTime + '.txt', 'w') as f:
     f.write(str(df))
