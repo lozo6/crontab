@@ -1,0 +1,14 @@
+     Unnamed: 0                    NPI                        PROVIDER NAME  ...         ZIP MEDICARE ID EFFECTIVE DATE       PHONE
+0             0  1003081399 1013055110  BAART BEHAVIORAL HEALTH SERVICES IN  ...  05602-8498                   1/1/2020  8022232003
+1             1             1003150004                 AMS OF WISCONSIN LLC  ...  54650-6742                   1/1/2020  9202322332
+2             2             1003362484                         BHG XLII LLC  ...  23462-3222                   1/1/2020  7579620748
+3             3             1003368945                         RTS EDGEWOOD  ...       21040                 10/13/2020  4434569001
+4             4             1003947193  WEST TEXAS COUNSELING & REHABILITAT  ...  75074-5391                   1/1/2020  9725162900
+..          ...                    ...                                  ...  ...         ...                        ...         ...
+995         995             1710986583               DISCOVERY HOUSE WC INC  ...  04619-1203                   1/1/2020  2074541300
+996         996             1720204696  HUMANISTIC ALTERNATIVES TO ADDICTIO  ...  94605-5266                   1/1/2020  5108752300
+997         997             1720290091                       COUNTY OF LAKE  ...  60085-2321                  3/13/2021  8473778800
+998         998             1720294366       METRO TREATMENT OF FLORIDA, LP  ...  32533-5808                   1/1/2020  8509683565
+999         999             1720302144  CENTER OF HOPE OF MYRTLE BEACH, LLC  ...  29579-7335                   1/1/2020  8008056989
+
+[1000 rows x 10 columns]
